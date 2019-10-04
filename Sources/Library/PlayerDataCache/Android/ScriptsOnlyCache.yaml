@@ -8,6 +8,14 @@ ScriptsOnlyBuild:
     - Knife
     - KnifeSpawner
     - ScoreManager
+    GitHub.Unity.45.dll:
+    - GitHub.Unity.ApplicationCache
+    - GitHub.Unity.EnvironmentCache
+    - GitHub.Unity.GitAheadBehindCache
+    - GitHub.Unity.GitLocksCache
+    - GitHub.Unity.GitStatusCache
+    - GitHub.Unity.RepositoryInfoCache
+    - GitHub.Unity.Window
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -27,7 +35,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Networking.NetworkCallbacks
     - UnityEngine.Networking.NetworkIdentity
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/main.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -69,47 +77,47 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9242}
+      Script: {instanceID: 9276}
     - Class: 114
-      Script: {instanceID: 9294}
+      Script: {instanceID: 9328}
     - Class: 114
-      Script: {instanceID: 9296}
+      Script: {instanceID: 9330}
     - Class: 114
-      Script: {instanceID: 9336}
-    - Class: 114
-      Script: {instanceID: 9354}
-    - Class: 114
-      Script: {instanceID: 9384}
+      Script: {instanceID: 9372}
     - Class: 114
       Script: {instanceID: 9390}
     - Class: 114
-      Script: {instanceID: 9396}
+      Script: {instanceID: 9420}
     - Class: 114
-      Script: {instanceID: 9436}
+      Script: {instanceID: 9426}
     - Class: 114
-      Script: {instanceID: 9440}
+      Script: {instanceID: 9432}
     - Class: 114
-      Script: {instanceID: 9442}
+      Script: {instanceID: 9472}
     - Class: 114
-      Script: {instanceID: 9668}
+      Script: {instanceID: 9476}
     - Class: 114
-      Script: {instanceID: 9798}
+      Script: {instanceID: 9478}
     - Class: 114
-      Script: {instanceID: 9804}
+      Script: {instanceID: 9704}
     - Class: 114
-      Script: {instanceID: 10008}
+      Script: {instanceID: 9838}
     - Class: 114
-      Script: {instanceID: 10056}
+      Script: {instanceID: 9844}
     - Class: 114
-      Script: {instanceID: 10098}
+      Script: {instanceID: 10144}
     - Class: 114
-      Script: {instanceID: 10378}
+      Script: {instanceID: 10192}
     - Class: 114
-      Script: {instanceID: 10396}
+      Script: {instanceID: 10236}
     - Class: 114
-      Script: {instanceID: 10442}
+      Script: {instanceID: 10520}
     - Class: 114
-      Script: {instanceID: 10886}
+      Script: {instanceID: 10538}
+    - Class: 114
+      Script: {instanceID: 10584}
+    - Class: 114
+      Script: {instanceID: 11042}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -919,5 +927,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: E:/Projets Unity/Fruit Hunt - Copie/fruithunt.apk
+  - Assets/Scenes/main.unity
+  playerPath: E:/Projets Unity/Fruit Hunt - Copie/FruitHunt/fruithunt.apk

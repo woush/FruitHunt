@@ -32,7 +32,7 @@ public class Knife : MonoBehaviour
         {
             this.transform.parent = obj.transform;
             Death(true);
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("main");
         }
 
         if(obj.transform.tag == "Fruit" && enable == true)
